@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    flex-direction: column;
+
+}
+.image{
+
+}
+.heading{
+    position: absolute;
+    top: 40%;
+    /* left: 50%; */
+    /* align-items: center; */
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* background-color: red; */
+
+}
+.prob_container{
+    display: flex;
+    justify-content: center;
+    /* color: black; */
+    /* background-color: red; */
+    /* width: 100; */
+}
+.stage{
+    display: flex;
+
+}
