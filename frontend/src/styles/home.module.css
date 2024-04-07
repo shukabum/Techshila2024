@@ -196,3 +196,35 @@
 .ps:hover{
 cursor: pointer;
 }
+
+/* team */
+.teamcont{
+    display: flex;
+    flex-direction: column;
+    height: 50rem;
+    background-color: #351342;
+    align-items: center;
+    justify-content: center;
+    
+}
+.teamheading{
+    position: absolute;
+    font-family: "Mulish",sans-serif;
+    font-weight: 900;
+    color: white;
+    font-size: 3rem;
+    margin-top: -35%;
+    /* top:0; */
+    /* left: 50%; */
+    /* justify-content: center;
+     */
+    /* background-color: ; */
+    /* align-items: center; */
+}
+.design5{
+    display: flex;
+    justify-content: center;
+    background-color: #4E1554;
+    height:60%;
+    width: 100%;
+}

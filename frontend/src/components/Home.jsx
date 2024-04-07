@@ -1,7 +1,9 @@
 import React from "react";
 import classes from "../styles/home.module.css";
-import centerimage from "../assests/center.png";
+// import centerimage from "../assests/center.png";
 import fampay from '../assests/fampay.png';
+import design5 from '../assests/design5.png';
+
 const Home = () => {
   let categories = [
     {
@@ -87,8 +89,15 @@ const Home = () => {
         <div className={classes.design4}></div>
       </div>
       
-      <div className={classes.team}>
-        <h1>Team Techshila</h1>
+      <div className={classes.teamcont}>
+        <h1 className={classes.teamheading}>Team Techshila</h1>
+        <div className={classes.design5}>
+          <img src={design5} style={{
+            height:"100%",
+            width:"65%",
+          }}/>
+
+        </div>
       </div>
     </div>
   );
