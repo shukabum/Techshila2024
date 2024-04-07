@@ -20,6 +20,8 @@ const Navbar = () => {
         <img src={logo} alt="STC Logo" className={classes.logo} />
         Techshila
       </div>
+      {/* kbdcakhadhcakjbc */}
+      <img></img> 
       <div className={classes.links}>
         {isMobile ? (
           <div>Bars or any other mobile navigation UI</div>

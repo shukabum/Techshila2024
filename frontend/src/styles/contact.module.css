@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://db.onlinewebfonts.com/c/42954fca42bd1f687f736468d1cdcd3e?family=Azonix');
+
+.container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    color: white;
+    font-family: "Mulish",sans-serif;
+    background-color: #351342;
+    height: 20rem;
+    gap:1rem;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+.context{
+    display: flex;
+    font-size: 1.2rem;
+    font-family: 'Azonix';
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+.images{
+    height:2rem;
+    width: 2rem;
+}

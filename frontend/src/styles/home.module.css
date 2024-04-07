@@ -228,3 +228,16 @@ cursor: pointer;
     height:60%;
     width: 100%;
 }
+
+/* cards */
+.cards{
+    display: flex;
+    justify-content: center;
+    height:30%;
+    width: 10rem;
+
+}
+.cardimg{
+    height:100%;
+    width: 100%;
+}

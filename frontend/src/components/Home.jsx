@@ -98,6 +98,10 @@ const Home = () => {
           }}/>
 
         </div>
+        {/* team */}
+        <div>
+
+        </div>
       </div>
     </div>
   );
