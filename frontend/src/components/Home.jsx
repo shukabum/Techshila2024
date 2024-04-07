@@ -1,79 +1,97 @@
-import React from 'react'
-import classes from '../styles/home.module.css';
-import centerimage from '../assests/center.png';
+import React from "react";
+import classes from "../styles/home.module.css";
+import centerimage from "../assests/center.png";
+import fampay from '../assests/fampay.png';
 const Home = () => {
-  let categories =[
+  let categories = [
     {
-      name:"Blockchain",
-      link:"",
+      name: "Blockchain",
+      link: "",
     },
     {
-      name:"Development",
-      link:"",
+      name: "Development",
+      link: "",
     },
     {
-      name:"Design",
-      link:"",
+      name: "Design",
+      link: "",
     },
     {
-      name:"Finance",
-      link:"",
+      name: "Finance",
+      link: "",
     },
     {
-      name:"Development",
-      link:"",
+      name: "Development",
+      link: "",
     },
     {
-      name:"Design",
-      link:"",
+      name: "Design",
+      link: "",
     },
     {
-      name:"Product",
-      link:"",
+      name: "Product",
+      link: "",
     },
     {
-      name:"Finance",
-      link:"",
+      name: "Finance",
+      link: "",
     },
-  ]
+  ];
   return (
-    <div className={classes.container}>  
-      <div className={classes.image}>
+    <div className={classes.container}>
+      <div className={classes.imagecont}>
         <div className={classes.heading}>
           TECHSHILA
-          <p>
-          Tackle compelling problem statements and embrace hands-on learning experiences all at once!
-          </p>
+          <span className={classes.text1}>
+            Tackle
+            <p className={classes.colorchange}>
+              &nbsp;compelling problem statements&nbsp;
+            </p>{" "}
+            and embrace&nbsp;
+            <p className={classes.colorchange}>hands-on learning&nbsp;</p>
+            experiences all at once!
+          </span>
         </div>
-
-        <img src={centerimage} alt ="center image"/>
       </div>
       <div className={classes.prob_container}>
+        <div className={classes.design1}></div>
+        <div className={classes.design2}></div>
         <div className={classes.stage}>
-          {
-            categories.map((item,index)=>
-              <button key={index}>
-                {item.name}
-              </button>
-            )
-          }
-
+          {categories.map((item, index) => (
+            <button key={index} className={classes.btn}>
+              {item.name}
+            </button>
+          ))}
         </div>
+        <div className={classes.sponscont}>
+          <div className={classes.sponsortext}>
+            <p className={classes.boldtext}>
+            Enhancing user experience of Fampay official website 
+            </p>
+            <p>
+            Developing and optimising website of Fampay official website and enhancing its usability using some good and latest technologies such as Next.js
+            </p>
+            <button className={classes.web}>Web Development</button>
+
+          </div>
+          <div className={classes.sponsimage}>
+            <img src={fampay} alt="fampay" className={classes.fampayimage}/>
+            <button className={classes.ps}>
+              Problem Statement
+            </button>
+
+          </div>
        
       </div>
-      <div className={classes.spons}>
-        <div>
-        </div>
-
+        <div className={classes.design3}></div>
+        <div className={classes.design4}></div>
       </div>
+      
       <div className={classes.team}>
-        <h1>
-          Team Techshila
-        </h1>
-
+        <h1>Team Techshila</h1>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

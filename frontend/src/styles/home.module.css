@@ -1,33 +1,198 @@
+@import url('https://db.onlinewebfonts.com/c/42954fca42bd1f687f736468d1cdcd3e?family=Azonix');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
 .container{
     display: flex;
     flex-direction: column;
-
+    margin: 0;
 }
-.image{
-
+.imagecont{
+    height: 100vh;
+    width: 100%;
+    background-image: url("../assests/center.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin: 0; */
 }
+
 .heading{
     position: absolute;
     top: 40%;
-    /* left: 50%; */
-    /* align-items: center; */
-    color:white;
+    font-size: 8rem;
+    color:#D9D9D9;
+    font-family: "Azonix";
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
-    /* background-color: red; */
+}
+.text1{
+    font-family: "Mulish",sans-serif;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    color: #D9D9D9;
+    font-size: 1.6rem;
 
+}
+.colorchange{
+    color: #C086C7 ;
 }
 .prob_container{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    /* color: black; */
-    /* background-color: red; */
-    /* width: 100; */
+    align-items: center;
+    border: none;
+    margin-top: -0.1%;
+    background-color: #351342;
+    height: 45rem;
+    gap:5rem; 
+}
+.sponscont{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    gap:1rem;
+    border-radius:20px;
+    padding:2rem;
+    border:solid #C086C7;
+    width: 60%;
+    height:50%;
+    z-index: 1;
+}
+.design1{
+    position: absolute;
+    right: 0%;
+    height: 10%;
+    width: 20%;
+    background-image: url("../assests/design1.png");
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+    margin-top: -25%;
+    /* background-size: ; */
+
+}
+.design4{
+    position: absolute;
+    left: 0%;
+    height: 10%;
+    width: 20%;
+    background-image: url("../assests/design1.png");
+    background-repeat: no-repeat;
+    /* transform: rotate(180deg); */
+    margin-top: 25%;
+    /* background-size: ; */
+
+}
+.design2{
+    position: absolute;
+    left:0;
+    margin-top: -15%;
+    /* top:0; */
+    background-image: url("../assests/design3.png");
+    background-repeat: no-repeat;
+    background-size:contain;
+    height: 50%;
+    width: 50%;
+}
+.design3{
+    position: absolute;
+    left:50%;
+    margin-top: 15%;
+    transform: rotate(180deg);
+    background-image: url("../assests/design3.png");
+    background-repeat: no-repeat;
+    background-size:contain;
+    height: 50%;
+    width: 50%;
 }
 .stage{
     display: flex;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 1rem;
+    border:solid #C086C7;
+    gap:1rem;
+    z-index: 1;
+}
+.btn{
+    font-family: "Mulish", sans-serif;
+    background-color: #351342;
+    color: white;
+    border-radius: .6rem;
+    font-size: 1rem;
+    padding: 1rem;
 
+
+}
+.btn:hover{
+    cursor: pointer;
+}
+.sponsortext{
+    display: flex;
+    flex-direction: column;
+    font-family: "Mulish",sans-serif;
+    font-size: 1.2rem;
+    color: #808080;
+    justify-content: center;
+    width: 80%;
+    gap:1.3rem;
+    /* background-color: red; */
+    
+}
+.boldtext{
+    font-weight: 800;
+    font-size: 1.4rem;
+    color: black;
+}
+.sponsimage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:40%;
+    /* background-color: red; */
+    gap:1rem;
+
+}
+.web{
+    color: #2F2F2F;
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-family: "Mulish",sans-serif;
+    border-radius: 5rem;
+    background-color: #F1DCF9;
+    border: solid #351342 1px;
+    width: fit-content;
+}
+.web:hover{
+    cursor: pointer;
+}
+.fampayimage{
+    height: 120px;
+    width: 120px;
+}
+.ps{
+    padding: 1.1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-family: "Mulish",sans-serif;
+    font-size: 1rem;
+    border-radius: 5px;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    color: #E2E2E2;
+    background-color: #351342;
+    border: none;
+    width: fit-content;
+    
+}
+.ps:hover{
+cursor: pointer;
 }
