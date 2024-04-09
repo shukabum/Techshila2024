@@ -213,7 +213,7 @@ cursor: pointer;
     font-weight: 900;
     color: white;
     font-size: 3rem;
-    margin-top: -35%;
+    margin-top: -40%;
     /* top:0; */
     /* left: 50%; */
     /* justify-content: center;
@@ -230,14 +230,29 @@ cursor: pointer;
 }
 
 /* cards */
-.cards{
+.card{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    height:30%;
     width: 10rem;
-
 }
 .cardimg{
-    height:100%;
+    border-radius: 5%;
+    height:45%;
     width: 100%;
+}
+.card1{
+    position: relative;
+    right: 10%;
+    color: white;
+    text-align: center;
+}
+.card2{
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 13%;
+    position: relative;
+    top: 40%;
+    right: 47%;
+    text-align: center;
 }
