@@ -579,7 +579,7 @@ cursor: pointer;
     
     .card2cont {
         position: absolute;
-        margin-top: 90%;
+        margin-top: 95%;
         display: grid; /* Change display to grid */
         grid-template-columns: repeat(2, 1fr); /* Two columns */
         gap: 2rem; /* Adjust the gap between items */
