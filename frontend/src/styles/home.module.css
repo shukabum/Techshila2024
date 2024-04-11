@@ -232,20 +232,16 @@ cursor: pointer;
 }
 
 /* cards */
-.card1cont{
+
+.card1{
+    /* height:50px; */
+    /* width: 30px; */
     position: absolute;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-top: -15%;
-    /* background-color: red; */
-
-    
-}
-.card1{
-    /* height:50px; */
-    /* width: 30px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -259,25 +255,42 @@ cursor: pointer;
 
 .card2cont{
     position: absolute;
-    margin-top: 35%;
+    margin-top: 30%;
     display: flex;
-    /* background-color: red; */
-    gap:4rem;
-    /* flex-direction: row; */
-    /* align-items: center; */
-    justify-content: space-evenly;
-    /* background-color: red; */
-
+    width: 100%;
+    justify-content:space-evenly;
     
 }
 
+.imagecard{
+    height: 300px;
+    width:250px;
+    border-radius: 20px;
+    box-shadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px",
+    
+      
+      
+}
 
+.card2{
+    height:100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family:"Mulish",sans-serif ;
+    font-size: 1.2rem;
+    gap:1rem;
+
+}
 
 
 
 @media only screen and (max-width: 960px) {
     @import url('https://db.onlinewebfonts.com/c/42954fca42bd1f687f736468d1cdcd3e?family=Azonix');
-@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
     .container{
         display: flex;
         flex-direction: column;
@@ -297,7 +310,7 @@ cursor: pointer;
     .heading{
         position: absolute;
         top: 40%;
-        font-size: 3.5rem;
+        font-size: 3rem;
         color:#D9D9D9;
         padding: 1rem;
         font-family: "Azonix";
@@ -308,7 +321,8 @@ cursor: pointer;
         width: 100%;
     }
     .text69{
-        font-family: "Azonix";
+        font-family: "Azonix",sans-serif;
+        width: 100%;
         margin-top: 4rem;
         /* background-color: red; */
         display: flex;
@@ -317,6 +331,7 @@ cursor: pointer;
         color: #C086C7 ;
         font-size: 1.4rem;
         white-space:normal ;
+        /* background: red; */
 
     
     }
@@ -331,7 +346,7 @@ cursor: pointer;
         border: none;
         /* margin-top: -0.1%; */
         background-color: #351342;
-        height: 45rem;
+        height: fit-content;
         gap:5rem; 
     }
     .sponscont{
@@ -341,13 +356,13 @@ cursor: pointer;
         background-color: white;
         gap:1rem;
         border-radius:20px;
-        padding:2rem;
+        padding:1.5rem;
         border:solid #C086C7;
         /* width: 60%;
         height:50%; */
         /* margin-top: ; */
         height: fit-content;
-        width: 80%;
+        width: 90%;
         z-index: 1;
     }
     .design1{
@@ -533,7 +548,7 @@ cursor: pointer;
         font-family: "Mulish",sans-serif;
         font-weight: 900;
         color: white;
-        font-size: 3rem;
+        font-size: 2rem;
         margin-top: 00%;
         /* top:0; */
         /* left: 50%; */
@@ -547,46 +562,62 @@ cursor: pointer;
         display: flex;
         justify-content: center;
         background-color: #4E1554;
-        height:80%;
+        height:60%;
         width: 100%;
     }
     
     /* cards */
-    .card1cont{
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-top: -100%;
-        /* background-color: red; */
-    
-        
-    }
+
     .card1{
-        /* height:50px; */
-        /* width: 30px; */
+        position: absolute;
+        height:35%;
+        width: 55%;
+        margin-top: -90%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         color: white;
         font-family:"Mulish",sans-serif ;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         gap:1rem;
+      
     
     }
-    
+   
+    .imagecard{
+        height: 100%;
+        width:100%;
+        border-radius: 20px;
+        box-shadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px",
+          
+    }
+   
     .card2cont {
         position: absolute;
-        margin-top: 95%;
+        margin-top: 180%;
         display: grid; /* Change display to grid */
         grid-template-columns: repeat(2, 1fr); /* Two columns */
-        gap: 2rem; /* Adjust the gap between items */
+        gap: 1rem; /* Adjust the gap between items */
         justify-content: center; /* Center the items horizontally */
         align-items: center; /* Center the items vertically */
+        color: white;
+        padding: 1rem;
       }
-      
+      .card2{
+        height:100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-family:"Mulish",sans-serif ;
+        font-size: 1rem;
+        gap:1rem;
+
+    
+    }
     
     
   }

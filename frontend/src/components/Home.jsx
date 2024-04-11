@@ -156,83 +156,58 @@ const Home = () => {
           />
         </div>
         {/* team */}
-        <div className={classes.card1cont}>
+      
           <div className={classes.card1}>
             <img
               src={ayush}
               alt="ayush"
-              style={{
-                height: isMobile?"200px":"300px",
-                width: isMobile?"170px":"250px",
-                borderRadius: "20px",
-                boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px",
-              }}
+              className={classes.imagecard}
             />
             <p className={classes.card_text}>
               <h4>Ayush Pal</h4>
               Convener
             </p>
           </div>
-        </div>
+       
         <div className={classes.card2cont}>
-          <div className={classes.card1}>
+          <div className={classes.card2}>
             <img
               src={arin}
               alt="ayush"
-              style={{
-                height: isMobile?"200px":"300px",
-                width: isMobile?"170px":"250px",
-                borderRadius: "20px",
-                boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px",
-              }}
+              className={classes.imagecard}
             />
             <p className={classes.card_text}>
               <h4>Arin Tiwari</h4>
               Co-Convener
             </p>
           </div>
-          <div className={classes.card1}>
+          <div className={classes.card2}>
             <img
               src={sheru}
               alt="ayush"
-              style={{
-                height: isMobile?"200px":"300px",
-                width: isMobile?"170px":"250px",
-                borderRadius: "20px",
-                boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px",
-              }}
+              className={classes.imagecard}
             />
             <p className={classes.card_text}>
               <h4>Shreyansh Tiwari</h4>
               Co-Convener
             </p>
           </div>
-          <div className={classes.card1}>
+          <div className={classes.card2}>
             <img
               src={Komal}
               alt="ayush"
-              style={{
-                height: isMobile?"200px":"300px",
-                width: isMobile?"170px":"250px",
-                borderRadius: "20px",
-                boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px",
-              }}
+              className={classes.imagecard}
             />
             <p className={classes.card_text}>
               <h4>Komalpreet Kaur</h4>
               Co-Convener
             </p>
           </div>
-          <div className={classes.card1}>
+          <div className={classes.card2}>
             <img
               src={ayush}
               alt="ayush"
-              style={{
-                height: isMobile?"200px":"300px",
-                width: isMobile?"170px":"250px",
-                borderRadius: "20px",
-                boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px",
-              }}
+              className={classes.imagecard}
             />
             <p className={classes.card_text}>
               <h4>Aditya Sewal</h4>

@@ -8,7 +8,8 @@
     color: white;
     font-family: "Mulish",sans-serif;
     background-color: #351342;
-    height: 20rem;
+    height: 50%;
+    padding: 1rem;
     gap:1rem;
 }
 .content{
@@ -20,13 +21,41 @@
 }
 .context{
     display: flex;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-family: 'Azonix';
-    gap: 4rem;
+    width: 100%;
+    /* gap: 4rem; */
     justify-content: center;
     align-items: center;
 }
 .images{
     height:2rem;
     width: 2rem;
+}
+
+@media only screen and (max-width: 960px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        color: white;
+        font-family: "Mulish",sans-serif;
+        background-color: #351342;
+        height: 50%;
+        padding: 1rem;
+        gap:1rem;
+    }
+    .context{
+        display: flex;
+        font-size: 1rem;
+        font-family: 'Azonix';
+        width: 100%;
+     
+        justify-content: center;
+        align-items: center;
+    }
+    .images{
+        height:1rem;
+        width: 1rem;
+    }
 }
