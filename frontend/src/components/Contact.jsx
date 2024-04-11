@@ -5,7 +5,7 @@ import email from '../assests/Mail.png';
 import phone from '../assests/phonr.png';
 const Contact = () => {
   return (
-    <div className={classes.container}>
+    <div className={classes.container} id='contacts'>
         
         <div className={classes.content}>
             <h1 style={{

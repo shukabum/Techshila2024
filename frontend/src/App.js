@@ -6,7 +6,12 @@ import classes from "./styles/app.module.css";
 function App() {
   return (
   <div className={classes.container}>
-    <Navbar/>
+    <Navbar
+        homeId="home"
+        problemId="problem"
+        teamId="team"
+        contactsId="contacts"
+      />
     <Home/>
     {/* <Contact/> */}
   </div>
