@@ -6,7 +6,7 @@
     justify-content: space-between;
     /* animation: all; */
     transition: all ease-in-out 0.5s;
-    height:5rem;
+    height:3rem;
     align-items: center;
     background-color: #351342;
     color: #E8E8E8;
@@ -95,6 +95,7 @@ a{
   }
 
   @media only screen and (max-width: 768px){
+    @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
     .container{
       height: 8rem;
     }
