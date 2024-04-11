@@ -22,17 +22,9 @@ const Contact = () => {
                     gap:"1rem"
                 }}>
                     <img src={email} className={classes.images}/>
-                    Email
+                    gensec.technical@iitr.ac.in
                 </p>    
-                <p style={{
-                    display:'flex',
-                    // justifyContent:'ce'
-                    alignItems:"center",
-                    gap:"1rem"
-                }}>
-                    <img src={phone} className={classes.images}/>
-                    Phone
-                </p>    
+               
 
             </span>
         </div>

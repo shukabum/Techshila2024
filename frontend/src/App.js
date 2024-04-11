@@ -8,7 +8,7 @@ function App() {
   <div className={classes.container}>
     <Navbar/>
     <Home/>
-    <Contact/>
+    {/* <Contact/> */}
   </div>
   );
 }

@@ -6,6 +6,7 @@
     display: flex;
     flex-direction: column;
     margin: 0;
+    background-color: #4E1554;
 }
 .imagecont{
     height: 100vh;
@@ -201,7 +202,8 @@ cursor: pointer;
 .teamcont{
     display: flex;
     flex-direction: column;
-    height: 50rem;
+    height: 85rem;
+    
     background-color: #351342;
     align-items: center;
     justify-content: center;
@@ -213,7 +215,7 @@ cursor: pointer;
     font-weight: 900;
     color: white;
     font-size: 3rem;
-    margin-top: -35%;
+    margin-top: -50%;
     /* top:0; */
     /* left: 50%; */
     /* justify-content: center;
@@ -225,19 +227,46 @@ cursor: pointer;
     display: flex;
     justify-content: center;
     background-color: #4E1554;
-    height:60%;
+    height:40%;
     width: 100%;
 }
 
 /* cards */
-.cards{
+.card1cont{
+    position: absolute;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    height:30%;
-    width: 10rem;
+    margin-top: -15%;
+    /* background-color: red; */
+
+    
+}
+.card1{
+    /* height:50px; */
+    /* width: 30px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family:"Mulish",sans-serif ;
+    font-size: 1.2rem;
+    gap:1rem;
 
 }
-.cardimg{
-    height:100%;
-    width: 100%;
+
+.card2cont{
+    position: absolute;
+    margin-top: 35%;
+    display: flex;
+    /* background-color: red; */
+    gap:4rem;
+    /* flex-direction: row; */
+    /* align-items: center; */
+    justify-content: space-evenly;
+    /* background-color: red; */
+
+    
 }
