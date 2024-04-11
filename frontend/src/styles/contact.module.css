@@ -37,12 +37,13 @@
     .container{
         display: flex;
         flex-direction: column;
-        /* justify-content: center; */
+        justify-content: center;
+        align-items: center;
         color: white;
         font-family: "Mulish",sans-serif;
         background-color: #351342;
-        height: 50%;
-        padding: 1rem;
+        /* height: 100%; */
+        padding: 5rem;
         gap:1rem;
     }
     .context{
